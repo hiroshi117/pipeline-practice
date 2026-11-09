@@ -36,7 +36,7 @@ export const App = () => {
 
   return (
     <>
-      <h1>パイプライン練習</h1>
+      <h1>パイプライン</h1>
       <input value={text} onChange={onChangeText} />
       <button onClick={onClickAdd}>追加</button>
       {todos.map((todo) => (
